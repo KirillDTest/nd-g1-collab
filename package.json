@@ -1,0 +1,24 @@
+{
+  "name": "(projgulp)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Hello\"",
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-image": "^2.10.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+  }
+}
