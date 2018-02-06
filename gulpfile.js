@@ -6,7 +6,7 @@ const image= require('gulp-image');
     const plumber = require('gulp-plumber')
     const notify = require('gulp-notify')
     gulp.task('imageGulp',function(){
-       gulp.src(['./src/img/*.jpg', './src/img/*png'])
+       gulp.src(['./src/img/*.jpg', './src/img/*.png'])
         .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
         .pipe(image())
         .pipe(gulp.dest('./dest/img'))
@@ -33,7 +33,7 @@ gulp.task('css', function(){
 gulp.task('watch', function(){
     gulp.watch('src/**/*.jade', {cwd:'./'}, ['html'])
     gulp.watch(['./src/style/**/*.scss', './src/style/**/*.sass'], ['css'])
-    gulp.watch(['./src/img/*.jpg', './src/img/*png'], ['imageGulp'])
+    gulp.watch(['./src/img/*.jpg', './src/img/*.png'], ['imageGulp'])
 })
 
 gulp.task('connect', function(){
