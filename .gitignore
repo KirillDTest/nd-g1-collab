@@ -1,1 +1,6 @@
 /node_modules/
+/dest/
+/examples_jade/
+/gulpfile.js/
+/package.json/
+/yarn.lock/
