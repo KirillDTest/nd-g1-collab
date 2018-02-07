@@ -1,0 +1,76 @@
+
+@import "header.scss";
+@import "footer";
+
+body{
+	height: 3712px;
+	width: 1400px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+	height: 3423px;
+}
+
+.content{
+	font-size: 18px;
+	height: 2923px;
+	padding-right: 287px;
+	padding-left: 287px;
+}
+
+.title{
+	height: 277px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	letter-spacing: 2px;
+}
+
+.main-title{
+	margin-left: -19px;
+	margin-top: 67px;
+	font-size: 60px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+.image{
+	width: 756px;
+	height: 480px;
+	background-color: rgb(230,230,230);
+	margin: 33px;
+	margin-top: 70px; 
+}
+
+.line{
+	height: 2px;
+	width: 55px;
+	background-color: black;
+	margin-left: 27px;
+}
+
+.text{
+	padding-top: 20px;
+	padding-left: 28px;
+	padding-right: 53px;
+	line-height: 27px;
+	letter-spacing: 2px;
+}
+
+.article-title{
+	font-size: 48px;
+	margin-top: 98px;
+	margin-left: 29px;
+	letter-spacing: 3px;
+}
+
+.slider{
+	height: 500px;
+	background-color: #ffe1bd
+}
+
+
+
+
+

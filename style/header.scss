@@ -1,0 +1,35 @@
+
+
+header{
+	height: 155px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 126px;
+	padding-right: 126px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 442px;
+	height: 155px;
+	color: #989898;
+	font-weight: lighter;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+
+
