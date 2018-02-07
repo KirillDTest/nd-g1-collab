@@ -1,0 +1,100 @@
+//* {
+//    border: 1px solid red;
+//}
+
+#form-main_container {
+    width: 1400px;
+    height: 708px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-block {
+    width: 1270px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-block_head {
+    width: 365px;
+    height: 57px;
+    align-self: center;
+}
+
+.form-head_txt {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 48px;
+    color: white;
+    opacity: 0.7;
+}
+
+.form-block_content {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    padding-top: 36px;
+}
+
+.form-block_info {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form_info {
+    width: 428px;
+    height: 45px;
+    display: flex;
+}
+
+.form-icons {
+    width: 310px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-icon_border {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.form-txt {
+    color: white;
+    line-height: 27px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.form-input {
+    height: 35px;
+    width: 390px;
+}
+
+.form-submit {
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-glide-g, .fa-instagram {
+    font-size: 33px;
+}
