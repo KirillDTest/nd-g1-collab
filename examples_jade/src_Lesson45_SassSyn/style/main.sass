@@ -1,0 +1,52 @@
+$black: #000
+$uniq: #ab3020
+$rgb: rgb(50,150,250)
+$rgbblack: black
+$sum: 10+20
+$ff: sans, sans-serif
+
+p
+	font-family: $ff;
+
+@mixin rem($num)
+	width: $num/19.2 + px
+
+@function rem($num)
+	@return $num/19.2 + px
+
+.rem
+	height: rem(1000)
+
+@import 'import'
+@import 'style'
+@import '123.scss'
+
+.width
+	width: 100%;
+	min-width: 400px;
+	margin: 10px
+	.block
+		display: flex
+		#id1
+			color: red
+	.item1
+		padding: 10px
+	&:hover
+		background-color: red;
+	> .item2
+		font-size: 30px
+.height
+	height: 100vw
+
+.color
+	background-color: $black
+	color: $uniq
+
+.rgb
+	background-color: $rgb
+	color: $rgbblack
+	width: $sum + px
+
+@for $num from 1 to 9
+	.item:nth-of-type(#{$num})
+		width: 20px * $num

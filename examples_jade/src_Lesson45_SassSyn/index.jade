@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Document
+	body
+	- var items = {item1: {price:'49', desc:'cap', link:'/'}}
+		mixin item(num, desc, text)
+			p #{num}
+			h1 #{desc}
+			a(src=text) link is #{text}
+		mixin short(itemNum)
+			#{items[itemNum].price}, #{items[itemNum].desc}, #{items[itemNum].link}
+		+item(10, 'hello', 'world')
+		//- +item(items[itemNum].price, items[itemNum].desc, items[itemNum].link)
+		p
+			+short('item1')
