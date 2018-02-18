@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		block styles
+		link(href='style/main.css' rel='stylesheet')
+	body
+		include includes/header.jade
+
+		//такой болшой ассоциативный массив данных о товарах лучше хранить в отдельном файле
+		//так как он может понадобиться еще какому-то файлу *.jade (header.jade в моем случае)
+		//в ином случае header не смог бы инклудить template.jade иначе он перестроится неправильно
+		include includes/CapCollection.jade
+
+		block content
+		include includes/footer.jade

@@ -1,0 +1,16 @@
+//- проблема как автоматически header-у определять что это страница cap1 например??
+//- на такую запись ругается
+//- block variables
+//-  - var current='cap1'
+//- block headerName
+//-  h1 #{items[current].description}
+//- [22:16:55] Олександр Березюк: все гут решил
+//- создал current.jade в котором block variables
+//- отлавливает текущий товар
+//- и заинклудил его в uniq.jade  и в header.jade
+//- [22:17:43] Олександр Березюк: теперь в Cap1.jade
+//- block headerName
+//-      h1 #{items[current].description}   работает
+//- [22:17:56] Кирилл: отлично, решили)
+
+block variables
